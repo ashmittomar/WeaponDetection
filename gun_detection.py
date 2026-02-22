@@ -34,3 +34,12 @@ while True:
 
     if key == ord('q'):
         break 
+
+if gun_exist:
+    print("guns detected")
+
+else: 
+    print("guns didn't detected")
+
+camera.release()
+cv2.destroyAllWindows()
